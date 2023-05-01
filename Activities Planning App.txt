@@ -1,0 +1,8 @@
+Activities Planning App 
+Description: Create an app that allows users to plan their activities for the day, week or month and generate a list of activities based on their daily, weekly and monthly needs. The app could suggest activities based on time and day while allowing users to select their favorite activities.
+
+Problem: Human is to error and people forget a lot, People frequently forget about little tasks and little activities that they should be completing throughout the day the week and the month. An application which reminds its users of a particular activity that should be done at particular time and date will definitely solve this particular problem.
+
+My activities is an app that will allow its users to set reminders to desired activities to be completed at desired time on the day to day calendar.
+
+Marketing strategy: we will use blogs and common social media platforms such as Twitter Facebook YouTube Instagram and TikTok to advertise our app and I think people will like it and find it very useful.
