@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #D9D9D9;
+        }
+
+        ul.navbar li {
+            float: left;
+        }
+
+        ul.navbar li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        ul.navbar li a:hover {
+            background-color: #D9D9D9;
+        }
+        .page-title {
+      background-color: #76DD74;
+      color:black;
+      text-align: center;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      box-sizing: border-box;
+      
+        }
+        .body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: white;
+      position: relative;
+    }
+
+    .main-container {
+      background-color: white;
+      padding: 20px;
+      text-align: center;
+      
+    }
+
+    .container {
+      margin-bottom: 20px;
+      
+    }
+
+    .align-left {
+      text-align: left;
+    }
+
+    .text-black {
+      color: black;
+    }
+
+    .text-gray {
+      color: gray;
+    }
+
+    .text-blue {
+      color: blue;
+     
+     
+      
+    }
+
+    .activity-details {
+      text-align: left;
+      background-color: #D9D9D9;
+      padding: 10px;
+      margin-bottom: 10px;
+      width: 525px;
+      height: 220px;
+      
+    
+      
+    }
+
+    .activity-details p {
+      margin: 0;
+
+    }
+
+    .time-container {
+      background-color: blue;
+      color: black;
+      padding: 5px;
+      display: inline-block;
+      width: 143px;
+      height: 54px;
+      text-align: center;
+      ;
+      
+      
+    }
+    a{
+      text-decoration: none;
+    }
+      
+    </style>
+    
+</head>
+<body>
+    <!-- Navigation bar HTML -->
+    <ul class="navbar">
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+        <li><a href="task.html">Task</a></li>
+    </ul>
+    <div class="page-title">
+        Dashboard
+      </div>
+      <div class="body">
+          <div class="main-container">
+            <div class="container">
+              <p class="align-left text-black">Hi User, You have Five tasks due today.</p>
+            </div>
+            <div class="container">
+              <p class="align-left text-gray">Expand All</p>
+            </div>
+            <div class="container activity-details">
+              <p><a href="calendar.html"><span id="activity-name"></span></a></p>
+              <p class="text-blue"><a href="calendar.html"><span id="date"></span></a></p>
+              <p><span class="time-container"><a href="calendar.html"></a>
+                  <span id="time"><a href="calendar.html"></span></a>
+                </span>
+              </p>
+            </div>
+            <div class="container activity-details">
+              <p><a href="calendar.html"><span id="activity-name-2"></span></a></p>
+              <p class="text-blue"><a href="calendar.html"><span id="date-2"></span></a></p>
+              <p><span class="time-container"><a href="calendar.html"></a>
+                  <span id="time-2"><a href="calendar.html"></span></a>
+                </span>
+              </p>
+            </div>
+          </div>
+        
+          <script>
+            // Set the values of activity name, date, and time
+            document.getElementById("activity-name").textContent = "Software Development Task";
+            document.getElementById("date").textContent = "2023-06-15";
+            document.getElementById("time").textContent = "09:00 AM";
+        
+            document.getElementById("activity-name-2").textContent = "Software Implementation Task";
+            document.getElementById("date-2").textContent = "2023-06-16";
+            document.getElementById("time-2").textContent = "02:30 PM";
+          </script>
+      
+
+</body>
+</html>

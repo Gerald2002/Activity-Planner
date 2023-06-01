@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* CSS for the navigation bar */
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #D9D9D9;
+        }
+
+        ul.navbar li {
+            float: left;
+        }
+
+        ul.navbar li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        ul.navbar li a:hover {
+            background-color: #D9D9D9;
+        }
+    .body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f1f1f1;
+    }
+        .page-title {
+      background-color: #76DD74;
+      color:black;
+      text-align: center;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      box-sizing: border-box;
+    }
+    .container {
+      background-color: #ccc;
+      padding: 20px;
+      text-align: center;
+      width: 1027px;
+      height: 542px;
+      position: relative;
+    }
+    
+    .input-box1 {
+      margin-bottom: 10px;
+      width: 419px;
+      height: 75px;
+      background-color: #76DD74;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .input-box2 {
+      margin-bottom: 10px;
+      width: 419px;
+      height: 75px;
+      background-color: #76DD74;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .input-box3 {
+      margin-bottom: 10px;
+      width: 419px;
+      height: 75px;
+      background-color: #76DD74;
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    input{
+      width: 419px;
+      height: 75px; 
+      background-color: #76DD74;
+      border: none;
+    }
+    
+    .submit-button {
+      background-color: #43C140;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      width: 169px;
+      height: 61px;
+      cursor: pointer;
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation bar HTML -->
+    <ul class="navbar">
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+        <li><a href="task.html">Task</a></li>
+    </ul>
+
+    <div class="page-title">
+        Task Name
+    </div>
+    <div class="body">
+
+      <div class="container">
+        <div class="input-box1">
+          <input type="text" style="color: black;" placeholder="Activity Name">
+        </div>
+        <div class="input-box2">
+          <input type="date" placeholder="Date">
+        </div>
+        <div class="input-box3">
+          <input type="time" placeholder="Time">
+        </div>
+        <button class="submit-button"><a href="dashboard.html" style="text-decoration: none ;color: white;">Add Task</a></button>
+      </div>
+    </div>
+
+
+</body>
+</html>
